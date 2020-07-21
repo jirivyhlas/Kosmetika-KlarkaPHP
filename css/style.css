@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+h1,h2,h3,h4,p,ul,ol,li,body {
+    margin: 0;
+    padding: 0;
+}
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+header .container {
+    width: 80%;
+    
+    
+    
+    /* margin: auto; */
+}
+.headerKon {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.headerKon a {
+    color: #000;
+    text-decoration: none;
+}
+.headerKon a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.logo {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+} 
+.logo:hover{
+    color:grey;
+}
+.menu{
+    text-align: center;
+    padding: 30px 0; 
+}
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    margin:0 30px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.menu ul li a:hover{
+    border-bottom:3px solid rgba(51, 48, 48, 0.637);
+}
+.headerObr{
+    background: url(../img/thalion2.jpg)center center no-repeat ;
+    height: 500px;
+    background-size: cover;
+    opacity: 40%;
+    margin: 30px;  
+      
+    }
+
+/*section*/
+.obsah{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    background-color: rgb(231, 248, 246);
+    margin: 30px ;
+    border: solid rgb(231, 248, 246);
+    
+}
+.conGal{
+    margin-left:  30px;
+
+}
+h1{
+    padding: 50px 0;
+    font-size: 50px;
+    text-align: center;
+    color:  rgb(73, 72, 72);
+}
+.obsah h2{
+    color: gray;
+    padding-bottom: 35px;
+}
+.obsah p{
+    line-height: 26px;
+}
+/*footer*/
+.pata{
+     
+    padding-bottom: 20px 0;text-align: center;
+}
+.pata .logo{
+    font-size: 20px;
+    padding-bottom: 30px;
+    display: block;
+}
+.pata p i{
+    margin-right: 20px;
+}
+.pata p{
+    margin-bottom: 6px;
+}
+.pata p a{
+    color:  gray;
+    text-decoration: none;
+}
+.pata p a:hover{
+    color:rgb(51, 50, 50) ;
+    text-decoration: underline;
+}.pata p span{
+    font-weight: 400;
+    color: red;
+}
+.pata .headerIkony {
+    padding-top: 15px;
+}
+.pata .headerIkony a{
+    color: black;
+    font-size: 20px;
+}
+.pata .headerIkony a:hover{
+    color:rgb(51, 50, 50)
+}
+/*osetreni*/
+.section  .container a{
+    justify-content: left;
+}
+.containerOset{
+    width: 73%;
+    margin: auto;
+}
+.containerOset h1{
+    font-weight: 500;
+}
+.containerOset p {
+    text-align: center;
+}.containerOset h2 {
+    padding-bottom: 10px 0;
+
+}
+/*galerie*/
+.gg-box{
+    padding-left: 30px ;
+    padding-right: 30px;
+}
+
+
+
+

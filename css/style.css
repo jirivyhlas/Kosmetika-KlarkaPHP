@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(247, 247, 247, 0.993);
     
     
 }
@@ -9,6 +10,9 @@ h1,h2,h3,h4,p,ul,ol,li,body {
 }
 *, *:after, *:before {
     box-sizing: border-box;
+}
+a, input {
+    transition: all 0.3s ease-out;
 }
 
 
@@ -45,9 +49,11 @@ header .container {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 10px;
+     
 } 
 .logo:hover{
     color:grey;
+    transition:all 0,3 ease-out;
 }
 .menu{
     text-align: center;
@@ -162,6 +168,21 @@ h1{
     padding-left: 30px ;
     padding-right: 30px;
 }
+.carousel {
+    width: 75%;
+    justify-content: center;
+    
+    margin: auto;
+    
+  
+ 
+}
+.carousel-inner{
+    width: 100%;
+    height: auto;
+    
+}
+
 
 
 

@@ -1,13 +1,7 @@
 body{
-<<<<<<< HEAD
     background-color: rgb(248, 248, 248);
     font-family: 'Quicksand', sans-serif !important;
    
-=======
-    font-family: 'Roboto', sans-serif;
-    background-color: rgba(247, 247, 247, 0.993);
-    
->>>>>>> 40e4feb2bfb9609c7c362cc5cc064f9d613afe0b
     
    
 }
@@ -23,13 +17,8 @@ h1,h2,h3,h4,p,ol,li,body {
 *, *:after, *:before {
     box-sizing: border-box;
 }
-<<<<<<< HEAD
 ul{
     padding-left: 45px;
-=======
-a, input {
-    transition: all 0.3s ease-out;
->>>>>>> 40e4feb2bfb9609c7c362cc5cc064f9d613afe0b
 }
 
 a, input {
@@ -77,23 +66,15 @@ header .container {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 10px;
-<<<<<<< HEAD
     text-decoration:none !important;
  
     
     
-=======
-     
->>>>>>> 40e4feb2bfb9609c7c362cc5cc064f9d613afe0b
 } 
 
 .logo:hover{
-<<<<<<< HEAD
-    color:grey; 
-=======
     color:grey;
     transition:all 0,3 ease-out;
->>>>>>> 40e4feb2bfb9609c7c362cc5cc064f9d613afe0b
 }
 .menu{
     text-align: center;
@@ -211,25 +192,5 @@ h1{
 }
 .carousel {
     width: 75%;
-<<<<<<< HEAD
     margin: auto;
 }
-=======
-    justify-content: center;
-    
-    margin: auto;
-    
-  
- 
-}
-.carousel-inner{
-    width: 100%;
-    height: auto;
-    
-}
-
-
-
-
-
->>>>>>> 40e4feb2bfb9609c7c362cc5cc064f9d613afe0b
